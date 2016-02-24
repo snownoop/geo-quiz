@@ -1,0 +1,18 @@
+{
+  "private": "true",
+  "name": "geo-quiz",
+  "authors": [
+    "sashayolo17@gmail.com <sashayolo17@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "bootstrap": "~3.3.6"
+  }
+}
