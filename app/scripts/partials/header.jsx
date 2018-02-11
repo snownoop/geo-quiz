@@ -1,14 +1,13 @@
-import React from 'react';
+import React from "react";
 
 class Header extends React.Component {
-
   render() {
-    let imageSrc = 'sad';
-    if(this.props.correctAnswersCounter >= 2) {
-      if(this.props.correctAnswersCounter >= 4) {
-        imageSrc = 'happy';
+    let imageSrc = "sad";
+    if (this.props.correctAnswersCounter >= 2) {
+      if (this.props.correctAnswersCounter >= 4) {
+        imageSrc = "happy";
       } else {
-        imageSrc = 'normal';
+        imageSrc = "normal";
       }
     }
 
@@ -29,4 +28,3 @@ Header.propTypes = {
 };
 
 export default Header;
-
